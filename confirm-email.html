@@ -80,9 +80,13 @@
       font-size: 14px;
     }
 
-    .wrapper > .footer-link > a {
+    .link {
       color: #3C97EF;
       font-weight: 700;
+    }
+
+    .link:hover {
+      text-decoration: underline;
     }
 
     .footer {
@@ -100,20 +104,16 @@
         <img src="https://www.arcanth.net/img/logo.png?1" alt="Logo">
       </a>
 
-      <h3>Verifique seu e-mail</h3>
+      <h3>Confirmar email</h3>
 
       <p class="description">Olá,
         <br />
-        Foi solicitado a confirmação de email para você ter acesso ao dashboard no Arcanth, clique no botão para confirmar.
+        Foi solicitado a confirmação de email para você ter acesso ao dashboard no Arcanth, clique <a href="#" class="link">aqui</a> para confirmar.
       </p>
-
-      <div style="width: 100%; display: flex;">
-        <a href="#" class="btn-verify">Confirmar e-mail</a>
-      </div>
 
       <p class="footer-link">Ou cole o link em seu navegador:
         <br />
-        <a href="#">https://arcanth.net</a>
+        <a href="#" class="link">https://arcanth.net</a>
       </p>
     </div>
 
